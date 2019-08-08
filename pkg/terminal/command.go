@@ -144,7 +144,7 @@ the arguments.  With -noargs, the process starts with an empty commandline.
 
 Optional [count] argument allows you to skip multiple lines.
 `},
-		{aliases: []string{"stepout", "so"}, cmdFn: c.stepout, helpMsg: "Step out of the current function."},
+		{aliases: []string{"stepout"}, cmdFn: c.stepout, helpMsg: "Step out of the current function."},
 		{aliases: []string{"call"}, cmdFn: c.call, helpMsg: `Resumes process, injecting a function call (EXPERIMENTAL!!!)
 	
 	call [-unsafe] <function call expression>
@@ -368,7 +368,7 @@ List all expressions:
 	display
 
 Also see the undisplay command.`},
-		{aliases: []string{"undisplay"}, cmdFn: undisplay, helpMsg: `Remove an expression that displayed at every prompt.`},
+		{aliases: []string{"undisplay"}, cmdFn: undisplay, helpMsg: `Remove an expression that is displayed at every prompt.`},
 	}
 
 	if client == nil || client.Recorded() {

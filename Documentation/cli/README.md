@@ -46,7 +46,7 @@ Command | Description
 [threads](#threads) | Print out info for every traced thread.
 [trace](#trace) | Set tracepoint.
 [types](#types) | Print list of types
-[undisplay](#undisplay) | Remove an expression that displayed at every prompt.
+[undisplay](#undisplay) | Remove an expression that is displayed at every prompt.
 [up](#up) | Move the current frame up.
 [vars](#vars) | Print package variables.
 [whatis](#whatis) | Prints type of an expression.
